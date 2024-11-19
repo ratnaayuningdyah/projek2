@@ -1,0 +1,215 @@
+body {
+    background-color: black;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 25px;
+    margin: 0px;
+}
+
+span {
+    color: darkgoldenrod;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px 5%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.home {
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-right: 78px;
+    margin-left: 50px;
+}
+
+.home .home-content h1 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 0.1;
+    color: white;
+}
+
+.home-content h3 {
+    padding-top: 15px;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: darkgoldenrod;
+}
+
+.home-content p {
+    color: white;
+}
+
+.home-img {
+    margin: 90px;
+    border-radius: 50%;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.logo {
+    font-size: 3rem;
+    color: darkgoldenrod;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-decoration: none;
+    font-family: unset;
+}
+
+nav a {
+    font-size: 1.4rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    color: darkgoldenrod;
+    transition: .4s;
+}
+
+.social-icons {
+    text-align: center;
+    color: white;
+}
+
+.social-icons:hover {
+    color: darkgoldenrod;
+    transition: .4s;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-instagram {
+    font-size: 24px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.fa-discord {
+    font-size: 22px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.fa-tiktok {
+    font-size: 22px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.fa-whatsapp {
+    font-size: 26px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.fa-github {
+    font-size: 24px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.about {
+    padding: 20px;
+    padding.-top: 50px;
+    padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-right: 78px;
+    margin-left: 78px;
+}
+
+.text h1{
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 55px;
+}
+
+.text p {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.text li {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.about-img {
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s linear;
+    float: right;
+}
+.education {
+    padding: 20px;
+    padding.-top: 50px;
+    padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-right: 78px;
+    margin-left: 78px;
+}
+
+.education-img {
+    margin: 50px;
+    border-radius: 50%;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s linear;
+    float: right;
+}
+.skills{
+    padding: 20px;
+    padding.-top: 50px;
+    padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-right: 78px;
+    margin-left: 78px;
+}
+
+.text h2{
+    text-align: left;
+    color: darkgoldenrod;
+    font-size: 30px;
+}
